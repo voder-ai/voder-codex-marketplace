@@ -1,0 +1,20 @@
+{
+  "name": "voder",
+  "interface": {
+    "displayName": "Voder"
+  },
+  "plugins": [
+    {
+      "name": "voder-early-access",
+      "source": {
+        "source": "local",
+        "path": "./plugins/voder-early-access"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

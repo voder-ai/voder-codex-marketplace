@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "voder": {
+      "type": "http",
+      "url": "https://app.voder.ai/mcp"
+    }
+  }
+}

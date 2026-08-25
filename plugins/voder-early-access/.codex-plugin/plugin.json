@@ -1,0 +1,37 @@
+{
+  "name": "voder-early-access",
+  "version": "0.1.0",
+  "description": "Connect Codex to Voder's accounting MCP.",
+  "author": {
+    "name": "Voder AI",
+    "url": "https://voder.ai/"
+  },
+  "homepage": "https://voder.ai/",
+  "repository": "https://github.com/voder-ai/voder-codex-marketplace",
+  "keywords": [
+    "accounting",
+    "finance",
+    "xero",
+    "mcp"
+  ],
+  "interface": {
+    "displayName": "Voder Early Access",
+    "shortDescription": "Explore accounting data and record product feedback with Voder.",
+    "longDescription": "Use Voder's read-only accounting tools and optionally record product feedback. Capabilities may be available here before their separate ChatGPT Store review is complete.",
+    "developerName": "Voder AI",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://voder.ai/",
+    "privacyPolicyURL": "https://voder.ai/privacy/",
+    "termsOfServiceURL": "https://voder.ai/terms/",
+    "defaultPrompt": [
+      "Summarize my current financial position.",
+      "Compare revenue and profit with the previous period.",
+      "Show my outstanding invoices and bills."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
