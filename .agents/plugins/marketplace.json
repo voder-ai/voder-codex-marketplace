@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "voder-early-access",
+      "name": "voder",
       "source": {
         "source": "local",
-        "path": "./plugins/voder-early-access"
+        "path": "./plugins/voder"
       },
       "policy": {
         "installation": "AVAILABLE",

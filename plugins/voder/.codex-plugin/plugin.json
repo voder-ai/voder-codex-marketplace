@@ -1,7 +1,7 @@
 {
-  "name": "voder-early-access",
+  "name": "voder",
   "version": "0.1.0",
-  "description": "Connect Codex to Voder's accounting MCP.",
+  "description": "Use Voder's read-only accounting MCP through ChatGPT Plugins or Codex CLI.",
   "author": {
     "name": "Voder AI",
     "url": "https://voder.ai/"
