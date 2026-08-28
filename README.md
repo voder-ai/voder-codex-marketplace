@@ -1,14 +1,13 @@
 # Voder Custom Marketplace
 
-This public custom marketplace provides **Voder Early Access** through ChatGPT
+This public custom marketplace provides **Voder** through ChatGPT
 desktop's **Plugins** area and the Codex CLI. It connects to Voder's existing
 production MCP service and OAuth flow; it does not create a separate service,
 account entitlement, schema, or data store.
 
-Early Access means Voder capabilities may be available through this custom
-marketplace before OpenAI completes the separate review of a new ChatGPT Store
-version. Availability here is not evidence of ChatGPT Store approval or
-publication.
+Voder capabilities may be available through this custom marketplace before
+OpenAI completes the separate review of a new ChatGPT Store version.
+Availability here is not evidence of ChatGPT Store approval or publication.
 
 Voder's Xero accounting actions are read-only. The plugin can also record
 optional product feedback; that capability does not grant accounting write
@@ -29,7 +28,7 @@ access.
    and enter `voder-ai/voder-codex-marketplace`. If that control is absent, use
    the Codex CLI commands below, restart ChatGPT desktop, and return to
    **Plugins**.
-3. Choose the **Voder** marketplace and install **Voder Early Access**.
+3. Choose the **Voder** marketplace and install **Voder**.
 4. Complete Voder OAuth when ChatGPT opens the sign-in flow.
 5. Start a new chat so the newly installed tools can load.
 6. Ask, “Which Voder tools are available?” Then make one safe read by asking,
@@ -65,7 +64,7 @@ Eastside.” Do not assume those names exist in another Xero organisation.
 
 ## Update
 
-In ChatGPT desktop, open **Plugins**, open **Voder Early Access**, and choose
+In ChatGPT desktop, open **Plugins**, open **Voder**, and choose
 **Refresh** when that control is available. In Codex CLI, refresh the
 marketplace snapshot:
 
@@ -77,7 +76,7 @@ Start a new chat or CLI session after an update.
 
 ## Remove
 
-In ChatGPT desktop, open **Voder Early Access** from **Plugins** and use its
+In ChatGPT desktop, open **Voder** from **Plugins** and use its
 remove or uninstall action when offered. A managed workspace may instead show
 **Installed by admin**; ask that workspace's admin to change the installation
 policy. To remove a local Codex CLI installation and marketplace:
@@ -99,13 +98,13 @@ from Voder. Manage that connection separately in Voder.
   marketplace upgrade.
 - **Voder is missing from an existing chat or CLI session:** start a new chat or
   session after installation or update.
-- **OAuth did not complete:** reopen Voder Early Access from **Plugins**, or run
+- **OAuth did not complete:** reopen Voder from **Plugins**, or run
   the CLI install command again once. Complete the browser flow and return to
   the client. Do not repeat an ambiguous authentication attempt.
 - **The intended Xero organisation is missing:** sign in to Voder and confirm
   that exact organisation is connected before retrying the read.
 - **The ChatGPT Store has an older Voder version:** this custom marketplace is a
-  separate Early Access channel. Its availability does not change or prove the
+  separate channel. Its availability does not change or prove the
   Store version's review status.
 - **You are still stuck:** contact [Voder support](https://voder.ai/support/)
   with the failing step and the exact error text. Do not include financial data,

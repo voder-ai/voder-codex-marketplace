@@ -1,13 +1,13 @@
 # Voder Codex Marketplace Risk Management Policy
 
-**Last reviewed:** 2026-08-25
+**Last reviewed:** 2026-08-28
 
 This policy follows ISO 31000 and governs the public marketplace that connects
 Codex clients to Voder's existing MCP service.
 
 ## Business Context
 
-Codex desktop and CLI users install the Voder Early Access plugin to access
+Codex desktop and CLI users install the Voder plugin to access
 Voder accounting tools through the existing Voder MCP endpoint. Maintainers
 publish and update the marketplace metadata. Failure can prevent installation,
 misstate capabilities, direct users to the wrong endpoint or disclose
@@ -35,8 +35,8 @@ production appetite.
 | 1 | Negligible | No effect on Voder marketplace installation, OAuth authentication or MCP access. |
 | 2 | Minor | Local contributor workflow is inconvenienced; Voder marketplace installation and published metadata remain correct. |
 | 3 | Moderate | Marketplace publishing or updates are delayed, or confidential business information is committed and requires remediation without affecting Voder OAuth or the MCP endpoint. |
-| 4 | Significant | Users cannot install the Voder Early Access plugin, cannot complete Voder OAuth authentication, are directed to the wrong MCP endpoint or receive materially misleading capability or policy information. |
-| 5 | Severe | Credentials or customer financial data are exposed, the Voder Early Access plugin redirects users to a hostile endpoint, or trust and data security are materially compromised. |
+| 4 | Significant | Users cannot install the Voder plugin, cannot complete Voder OAuth authentication, are directed to the wrong MCP endpoint or receive materially misleading capability or policy information. |
+| 5 | Severe | Credentials or customer financial data are exposed, the Voder plugin redirects users to a hostile endpoint, or trust and data security are materially compromised. |
 
 ## Likelihood Levels
 

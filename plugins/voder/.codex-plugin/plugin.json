@@ -1,6 +1,6 @@
 {
   "name": "voder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Use Voder's read-only accounting MCP through ChatGPT Plugins or Codex CLI.",
   "author": {
     "name": "Voder AI",
@@ -15,7 +15,7 @@
     "mcp"
   ],
   "interface": {
-    "displayName": "Voder Early Access",
+    "displayName": "Voder",
     "shortDescription": "Explore accounting data and record product feedback with Voder.",
     "longDescription": "Use Voder's read-only accounting tools and optionally record product feedback. Capabilities may be available here before their separate ChatGPT Store review is complete.",
     "developerName": "Voder AI",
